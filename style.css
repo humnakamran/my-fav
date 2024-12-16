@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5a5a6;
+    overflow: hidden;
+}
+.container {
+    text-align: center;
+    background-color: #fadea2;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    color: #2e4057;
+    font-family: pacifico;
+}
+.heart {
+    font-size: 100px;
+    color: #e91e63;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.heart:hover {
+    transform: scale(1.1);
+}
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.flower {
+    font-size: 30px;
+    position: absolute;
+    opacity: 0;
+    transition: all 1s ease;
+}
+.yes-btn, .no-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.yes-btn {
+    background-color: #2e4057;
+    color: white;
+}
+.no-btn {
+    background-color: #2e4057;
+    color: white;
+}
+.yes-btn:hover, .no-btn:hover {
+    opacity: 0.8;
+}
+.gif-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif-container img {
+    width: 300px; 
+    border-radius: 10px; 
+
+}
